@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love Spell</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Anton&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/Index.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="menu-wrap">
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <a href="#" class="logo">Love Spell</a>
+  <div class="lang-switch">
+    <button class="lang-pill active" type="button">ES</button>
+    <button class="lang-pill" type="button">EN</button>
+    <button class="lang-pill" type="button">FR</button>
+  </div>
+</header>
+
+<!-- FONDO OSCURO AL ABRIR EL MENÚ -->
+<div class="menu-backdrop" id="menuBackdrop"></div>
+
+<!-- MENÚ LATERAL (OFF-CANVAS) -->
+<nav class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <span class="mobile-menu__logo">Love Spell</span>
+  <ul class="mobile-menu__list">
+    <li><a href="../LoveSpell.esp/paginas/Login.html">Login</a></li>
+    <li><a href="../LoveSpell.esp/paginas/Registrarse.html">Sign up</a></li>
+    <li><a href="../LoveSpell.esp/paginas/Catalogo.html">Productos</a></li>
+    <li><a href="#historia-detalles">Nuestra historia</a></li>
+    <li><a href="#visita">Visítanos</a></li>
+    <li><a href="#">Eventos y empresas</a></li>
+ 
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__media">
+    <!-- Reemplaza este div por tu foto real:
+         <img src="tu-foto.jpg" alt="..."> dentro de .hero__media -->
+    <div class="hero__media-placeholder"></div>
+  </div>
+
+  <div class="hero__content">
+    
+
+    <h1 class="hero__headline">
+      Detalles que dicen<br>
+      <em>más que mil palabras.</em>
+    </h1>
+
+    <p class="hero__text">
+      Chocolates y flores, pequeños detalles que iluminan los dias de ti y quienes amas, hechos a mano por personas que aman tan profundamente que lo sientes <strong>a traves de ellos</strong>. Hechos en <strong>Suba</strong>.
+    </p>
+
+    <a href="../LoveSpell.esp/paginas/Catalogo.html" class="cta-pill">Encuentra tu detalle <span>→</span></a>
+  </div>
+
+  <a href="#historia-detalles" class="scroll-badge" aria-label="Sigue bajando">
+    <svg viewBox="0 0 160 160" class="scroll-badge__ring">
+      <defs><path id="badge-circle" d="M80,80 m-62,0 a62,62 0 1,1 124,0 a62,62 0 1,1 -124,0"/></defs>
+      <text><textPath href="#badge-circle">SIGUE BAJANDO · SIGUE BAJANDO · SIGUE BAJANDO ·</textPath></text>
+    </svg>
+    <span class="scroll-badge__icon">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M12 4v16m0 0l-6-6m6 6l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+  </a>
+
+  <!-- ONDA DE TRANSICIÓN AL FINAL DEL HERO -->
+  <div class="wave-divider wave-divider--hero" aria-hidden="true">
+    <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,56 C240,112 480,0 720,40 C960,80 1200,16 1440,64 L1440,120 L0,120 Z"></path>
+    </svg>
+  </div>
+</section>
+
+<!-- HISTORIA -->
+<section class="historia" id="historia-detalles">
+  <div class="historia__media">
+    <div class="historia__media-placeholder"></div>
+  </div>
+  <div class="historia__copy">
+    <span class="eyebrow">Nuestra historia</span>
+    <h2>Detalles que puedes <em>sentir</em></h2>
+    <p>
+      Empezamos impulsados por el compromiso y cariño que pueden tenerse dos almas. Tenemos como proposito llevar alegria y repartir el consuelo del amor a todos quienes nos den una oportunidad.
+
+    </p>
+    <p>Ese impulso sigue vivo hasta el dia de hoy, permitiendonos desear cada vez llegar a mas personas y con productos de mejor calidad para seguir repartiendo esa emocion que nos lleva a todos y nos da sentido en el largo camino. Viendose siempre como firma de nuestra marca, <strong>LoveSpell</strong>.</p>
+  </div>
+</section>
+
+<!-- CATERING -->
+<section class="catering">
+  <div class="catering__media"><div class="catering__media-placeholder"></div></div>
+  <div class="catering__copy">
+    <span class="eyebrow">Eventos y empresas</span>
+    <h2>Corazones grandes, <em>detalles a la medida</em></h2>
+    <p>Tenemos detalles para todo tipo de ocasiones y sentimientos, pues de ellos es que nace nuestro producto. Pedidos personalizados para cualquier cantidad.</p>
+    <a href="../LoveSpell.esp/paginas/Categorias_Catalogo/Catalogo_7.html" class="cta-pill cta-pill--dark">Cotizar pedido <span>→</span></a>
+  </div>
+</section>
+
+<!-- INSTAGRAM -->
+<section class="insta">
+  <span class="eyebrow eyebrow--center">Love Spell en ig</span>
+  <h2 class="insta__title">Otra vista a nuestro <em>interior</em></h2>
+  <div class="insta__grid">
+    <div class="insta__ph"></div>
+    <div class="insta__ph"></div>
+    <div class="insta__ph"></div>
+    <div class="insta__ph"></div>
+  </div>
+  <a href="#" class="insta__link">@___.LoveSpell.___</a>
+</section>
+
+<!-- UBICACIÓN -->
+<section class="ubicacion" id="visita">
+  <div class="ubicacion__map"><div class="ubicacion__map-placeholder"></div></div>
+  <div class="ubicacion__info">
+    <span class="eyebrow">Ven a visitarnos</span>
+    <h2>Más sobre <em> Nosotros</em></h2>
+    <dl>
+      <div><dt>Dirección</dt><dd>Tv. 127c #139b-48 · Bogotá</dd></div>
+      <div><dt>Horario</dt><dd>Lunes,Martes y Jueves de 2:30pm a 5:30pm </dd></div>
+      <div><dt>Teléfono</dt><dd>315 7668343-323 8011541</dd></div>
+    </dl>
+    <a href="https://www.google.com/maps/place/Colegio+Pedag%C3%B3gico+Dulce+Mar%C3%ADa/@4.7469842,-74.1109935,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f8489da6cf3cd:0xb43f6ed55362d206!8m2!3d4.7469842!4d-74.1084186!16s%2Fg%2F1yg6ngscq?entry=ttu&g_ep=EgoyMDI2MDgwMy4wIKXMDSoASAFQAw%3D%3D" class="cta-pill">Abrir en mapas <span>→</span></a>
+  </div>
+</section>
+
+<!-- ONDA DE TRANSICIÓN AL FOOTER -->
+<div class="wave-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,64 C240,120 480,0 720,32 C960,64 1200,112 1440,56 L1440,120 L0,120 Z"></path>
+  </svg>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <span class="logo logo--footer">Love Spell</span>
+  <p>© 2026 LoveSpell — Todos los derechos reservados</p>
+</footer>
+
+<script>
+  const menuBtn = document.getElementById('menuBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const menuBackdrop = document.getElementById('menuBackdrop');
+
+  function openMenu(){
+    menuBtn.setAttribute('aria-expanded', 'true');
+    mobileMenu.setAttribute('aria-hidden', 'false');
+    menuBtn.classList.add('is-open');
+    mobileMenu.classList.add('is-open');
+    menuBackdrop.classList.add('is-open');
+    document.body.classList.add('menu-open');
+  }
+  function closeMenu(){
+    menuBtn.setAttribute('aria-expanded', 'false');
+    mobileMenu.setAttribute('aria-hidden', 'true');
+    menuBtn.classList.remove('is-open');
+    mobileMenu.classList.remove('is-open');
+    menuBackdrop.classList.remove('is-open');
+    document.body.classList.remove('menu-open');
+  }
+
+  menuBtn.addEventListener('click', () => {
+    const isOpen = menuBtn.getAttribute('aria-expanded') === 'true';
+    isOpen ? closeMenu() : openMenu();
+  });
+  menuBackdrop.addEventListener('click', closeMenu);
+  mobileMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+  document.addEventListener('keydown', e => { if(e.key === 'Escape') closeMenu(); });
+</script>
+
+</body>
+</html>
